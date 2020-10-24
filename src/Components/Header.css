@@ -1,0 +1,48 @@
+#header{
+    
+    height:7vh ;
+    text-align: center;
+    background-color: coral;
+    font-size: 3vw;
+    position: fixed; 
+    width: 100%; 
+    display: grid;
+    grid-template-rows: 7vh;
+    grid-template-columns: 40% 20% 50%;
+    
+}
+#txt{
+    width: 50%;
+    float: right;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    
+    font-size: 2.7vw;
+    margin: auto;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#react{
+    float: right;
+    margin-top: 0;
+    grid-column: 3/4;
+    grid-row: 1/1;
+    font-size: 1.2vw;
+    margin: auto;
+    color:white;
+}
+.logo{
+
+    width: 6%;
+    height: 100%;
+    color: blue;
+    animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
