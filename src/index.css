@@ -12,5 +12,12 @@ code {
     monospace;
 }
 #root{
-  height: 300vh;
+  height: 100vh;
+  color: white;
+  
 }
+#root a {
+  text-decoration: none;
+  color: white;
+}
+

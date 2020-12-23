@@ -1,0 +1,319 @@
+#header{
+    
+    height:7vh ;
+    text-align: center;
+    background-color: #131921;
+    font-size: 1vw;
+    position: fixed; 
+    width: 100%; 
+    top: 0;
+    display: grid;
+    grid-template-rows: 7vh;
+    grid-template-columns: 12% 8% 60% 12% 8%;
+    color: white;
+    z-index: 2;
+    
+}
+.headerdin1{grid-row: 1/1;grid-column: 1/2;position: relative;}
+.headerdin2{grid-row: 1/1;grid-column: 2/3;position: relative;}
+.headerdin3{grid-row: 1/1;grid-column: 3/4;align-items: center;}
+.headerdin4{grid-row: 1/1;grid-column: 4/5;position: relative;}
+.headerdin5{grid-row: 1/1;grid-column: 5/6;position: relative;}
+
+.innertxt{margin: auto;position: absolute;top: 21%;left: 10%;font-size: 1.3vw;font-weight: 500;cursor: pointer;}
+.itone{left: 35%;font-size: 1.7vw;top: 16%;background-color: teal;border-radius: 5px;width: 70%;}
+.itwo{left: 25%;top: 2%;font-size: 1.1vw;}
+.ithree{left: -6%;top: 25%;}
+.ifour{left: 0%;top: 20%;}
+.account-icon{font-size: 2.5vw;margin-top: -4%;}
+.inputf{
+  width: 100%;
+  height: 72%;
+  margin-top: 1%;
+  margin-left: 2%;
+  display: grid;
+  grid-template-columns: 95% 5%;
+  grid-template-rows: 100%;
+  position: relative;
+}
+.form-control {
+  height: 100%;
+  font-size: 1vw;
+  border-radius: 5px;
+}
+.searchbtn{
+  font-size: 2.4vw;
+  background-color: teal;color: white;
+  position: absolute;
+  left:89%;
+  border: 1px solid white;
+  height: 100%;
+  border-radius: 5px;
+  width: 6%;
+}
+
+
+
+#txt{
+    width: 50%;
+    float: right;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    font-size: 2.7vw;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.cartitemno-icon{  
+  
+  left: 46%;
+  top: -16%;
+  position: absolute;
+  font-size: 1.9vw;
+}
+.no-of-item {
+  position: absolute;
+  left: 67%;
+  top: -21%;
+  font-size: 1.4vw;
+}
+.cart-slide-div{width:15.5%;height: 96vh;z-index: 2;float: right;background-color:#0009 ;position: fixed;left: 84.5%;top: 7%;display: block;color: white;transition: 340ms;}
+.cart-slide-div-in{transition: 50ms;left: 100%;position: fixed;}
+.cart-toal-div{top:1%;background-color: teal;width: 100%;height: 7%;position: relative;display: block;text-align: center;}
+.cart-hover-item-list{width: 100%;height: 85%;margin-top: 1%;}
+.cart-items-title{margin-top: 1%;position: relative;list-style: none;font-size: 1.4vw;font-weight:600 ;}
+.cart-item-label{position: absolute;top: 10%;}
+.total-price-label{font-size: 1.2vw;margin-top: 15%;}
+.cart-total-in{display: none;}
+.locat-icon{width: 20%;}
+.header-serach {
+  font-size: 2vw;
+  position: absolute;
+  left: 21%;
+  top: 8%;
+}
+.carticon{
+  font-size: 2.57vw;
+}
+.account-text{position: absolute;}
+.create{display: block;}
+.account {
+  position: absolute;
+  left: 113%;
+  top: -2%;
+}  .cart-text{
+  display: block;
+  position: absolute;
+  left: 120%;
+  top: 0%;
+}
+
+
+
+/* Media Quieries */
+/* For Tablet */
+@media (max-width:768px){
+
+  .itone {
+    left: 44%;
+    top: 28%;
+    width: 71%;
+    height: 58%;
+}
+.cart-text{display: block;top: 5%;}
+.itwo {
+  left: 27%;
+  top: 21%;
+  font-size: 1.2vw;
+}
+.header-serach {
+
+  font-size: 2.5vw;
+  top: 11%;
+}
+.account-icon{
+  font-size: 4vw;
+}
+.account-text {
+  position: absolute;
+  font-size: 1.9vw;
+  top: 10%;
+  left: 31px;
+}
+.ithree{left: 0%;top: 14%;}
+.ifour {
+  left: -6%;
+  top: 16%;
+  font-size: 1.9vw;
+}.carticon {
+  font-size: 4vw;
+}
+.create{display: none;
+}.no-of-item {
+  left: 65%;
+  top: -23%;
+  font-size: 2.2vw;
+}.cartitemno-icon {
+  position: absolute;
+  left: 43%;
+  top: -18%;
+  font-size: 3vw;
+}.searchbtn {
+  height: 94%;
+  top: 5%;
+}.form-control {
+  font-size: 1.7vw;
+}
+
+}
+/* Media Quieries */
+/* For Lcd */
+@media (min-width:1536px){
+  #header{
+    
+    height:6vh ;
+  }
+  .itone {
+    font-size: 1.5vw;
+    top: 12%;}
+    .itwo {
+      left: 25%;
+      top: -1%;
+      font-size: 1vw;}
+      .inputf {
+        height: 63%;
+        margin-top: .7%;}
+        .header-serach {
+          font-size: 1.6vw;
+          left: 25%;
+          top: 15%;
+      }.ithree {
+        left: -6%;
+        top: 14%;
+    }.ifour {
+      top: 11%;
+  }
+}
+
+/* Media Quieries */
+/* For Mobile */
+@media (min-width:320px) and (max-width:425px){
+
+  #header{
+    
+    height:9.5vh ;}
+    .inputf {
+      width: 102%;
+      height: 69%;
+      margin-top: 8.5%;
+      margin-left: -1.5%;
+  }
+      .menu-icon {
+   
+        top: 0%;}
+        .itone {
+          left: 28%;
+          top: 2%;
+          width: 42%;
+          height: 56%;
+          font-size: 4.6vw;
+          padding-top: 0%;    z-index: 2;
+      }
+      .menu-icon {
+        font-size: 1.6em;
+    }.searchbtn {
+      font-size: 2.4vw;
+      top: 0%;
+      left: 83%;
+      height: 100%;
+      width: 12%;
+  }
+  .header-serach {
+    font-size: 6vw;
+    top: 13%;
+    left: 20%;
+}.ifour {
+  left: -26%;
+  top: 66%;
+  font-size: 1.9vw;
+}.carticon {
+  font-size: 8vw;
+}.menu-icon {
+
+  top: 0%;}
+  .headerdin1 {
+    grid-column: 3/4;}
+    .headerdin4 {
+      grid-row: 1/1;
+      grid-column: 1/2;}
+      .account-icon {
+      font-size: 9vw;
+  }.ithree {
+    left: 6%;
+    top: 64%;
+}.headerdin3 {
+
+  grid-column: 2/5;}
+  .headerdin2 {
+    grid-row: 1/1;
+    grid-column: 3/6;
+  }.account-text {
+    display: none;
+  }
+  .cart-text{display: none;}
+  .itwo {
+    left: 61%;
+    top: -1%;
+    display: none;
+    font-size: 2.7vw;
+}.cartitemno-icon {
+  position: absolute;
+  left: 47%;
+  top: -20%;
+  font-size: 6vw;
+}.cartitemno-icon {
+    position: absolute;
+    left: 47%;
+    top: -20%;
+    font-size: 6vw;
+}.no-of-item {
+  left: 69%;
+  top: -27%;
+  font-size: 4.6vw;
+}}
+
+
+
+/* Media Quieries */
+/* For Mobile medium*/
+@media (min-width:375px) and (max-width:425px){
+  .inputf {
+    width: 102%;
+    height: 69%;
+    margin-top: 7.9%;
+    margin-left: -1.5%;
+}.account-icon {  margin-top: -10%;
+}.ifour {
+  top: 62%;}.account-icon {
+    margin-top: -12%;    font-size: 8vw;
+  }
+  .inputf {
+    width: 102%;
+    height: 69%;
+    margin-top: 7%;}.header-serach {
+      font-size: 5.7vw;
+      top: 2%;
+      left: 20%;
+  }.ifour {
+    top: 52%;
+}
+
+}
+/* Media Quieries */
+/* For Lcd */
+@media (min-width:1px) and (max-width:1440px){
+
+  .inputf {
+    width: 20%;
+    height: 69%;}
+}

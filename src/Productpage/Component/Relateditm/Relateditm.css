@@ -1,0 +1,29 @@
+.Watchlist-maindiv{
+position: relative;
+height: 100%;
+}.watclist-header-div{
+position: absolute;
+
+width: 100%;
+text-align: center;
+
+}.Watchlist-sliderdiv{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.related-item-img{
+    height: 59%;
+    width: 94%;
+}
+
+/* Media Quieries */
+/* For Tablet */
+@media (max-width:768px){
+
+    .related-item-img{
+        height: 53%;
+        width: 94%;
+    }
+
+}

@@ -1,0 +1,122 @@
+.Cartpage-maindiv{
+    width: 77%;
+    height: 100vh;
+    position: relative;
+    left: 11%;
+    margin-top: 5%;
+}
+
+
+
+.Cartpage-cartdiv{
+    background-color: teal;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    position: relative;
+}
+.cart-table-div{
+    width:94%;
+    height: 80%;
+    position: absolute;
+    top: 22%;
+    left: 9%;
+}
+.cart-table-div  th{
+    
+    padding-right: 150px;
+    padding-bottom: 1%;
+}
+.cart-table-div  td{
+    
+    padding-right: 150px;
+    padding-bottom: 1%;
+}
+
+.cart-table-div  ul{
+    
+    padding-top: 12%;
+    list-style-type: none;
+}
+.bkgblr{
+    background-color: #0009;
+    border: 0px;
+}
+.qtybtn{
+
+ left: 0;
+ width: 40%;
+ height: 30%;
+    
+    background-color: tomato;
+}
+.qty-td{
+   
+   
+    position: relative;
+}
+/* Media Quieries */
+/* For Tablet */
+@media (max-width:768px){
+
+.cart-table-div  th{
+    
+    padding-right: 60px;
+    padding-bottom: 1%;
+}
+.cart-table-div  td{
+    
+    padding-right: 60px;
+    padding-bottom: 1%;
+}.Watchlist-maindiv {
+      
+    display: none;
+  }.Cartpage-maindiv {
+    width: 96%;
+    height: 100vh;
+  
+    left: 2%;
+    margin-top: 17%;
+  }.cart-table-div {
+    font-size: 4vw;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: teal;
+    top: 22%;
+    left: 0%;
+    
+}.cart-table-div th {
+    padding-right: 22px;
+    padding-bottom: 1%;
+  }.cart-table-div td {
+    padding-right: 17px;
+    padding-bottom: 1%;
+  }.Cartpage-cartdiv {
+    background-color: teal;}
+}
+
+/* Media Quieries */
+/* For Mobile */
+@media  (min-width:320px) and (max-width:425px){
+
+    .cart-table-div {
+        padding-left: 2%;
+    }
+
+}
+    /* Media Quieries */
+/* For Mobile medium Medium and large*/
+@media (min-width:375px) and (max-width:425px){
+
+    .product-main {
+        width: 98%;
+        left: 1%;
+        margin-top: 7%;
+    }.Cartprdctpg-main-titldiv {
+      top: 63%;
+    }.cart-table-div {
+        font-size: 3.6vw;
+        padding-left: 10%;
+    }
+}

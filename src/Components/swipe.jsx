@@ -14,4 +14,4 @@ export default () => {
         return <SwiperSlide>Slide {el}</SwiperSlide>;
       })}
     </Swiper>
-  );};
+  );}; 

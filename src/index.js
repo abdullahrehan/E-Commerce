@@ -2,17 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Products from './Components/Products';
+import FirstPageweb from './FirstPage/FirstPageweb.jsx';
+import Cart from './Productpage/Component/Cart/Cart'
+import CartContext from './Productpage/CartContext'
+import {BrowserRouter,Switch,Route,Link} from 'react-router-dom'
+import Allproducts from './Productpage/Productpage'
+
+
 
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter} from "react-router-dom"
 
 ReactDOM.render(
   <React.StrictMode>
-<BrowserRouter> 
+    <BrowserRouter>
+  <CartContext>
+
 <App />
+
+</CartContext>
 </BrowserRouter>
-   
   </React.StrictMode>,
 
 

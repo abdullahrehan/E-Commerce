@@ -1,36 +1,37 @@
-import React from 'react';
-import {Route, Switch} from 'react-router-dom';
-import './App.css';
-import Sidebar from "./Components/Sidebar/Sidebar.jsx"
-import  Header from './Components/Header'
-import Img from './Components/Img.jsx'
-import Contant from './Components/Contant'
+import React,{useContext,useState} from 'react'
+import Productpage from './Productpage/Productpage'
+import FirstPageweb from './FirstPage/FirstPageweb.jsx'
+import {BrowserRouter,Switch,Route,Link} from 'react-router-dom'
+import ContextCart from './Productpage/CartContextjs'
+import  Prodprev from './Productpage/Prodprev/Prodprev'
+import Header from './FirstPage/Components/Header/Header'
+import Sidebar from './FirstPage/Components/Sidebar/Sidebar'
+import SigninFoam from './FirstPage/Components/SigninFoam/SigninFoam'
+import Enddiv from './FirstPage/Components/Enddiv/Enddiv'
+import Singleproductinfo from './Productpage/Singleproductinfo/Singleproductinfo'
+import Products from './Productpage/Component/Products'
+import Cart from './Productpage/Component/Cart/Cart'
+import './App.css'
 
-import Button from 'react-bootstrap/Button';
-import Services from './Components/Middle Page/Services'
-import Products2 from './Components/Products.js'
+
 function App() {
-  return (
-<>
+    const [preloader,setpreloader]=useState(false)
+    return (
 
-  <div className='headers'>
-   <div className='div2'><Header></Header> </div>
-   <div className='div3'> <Sidebar></Sidebar></div>
-   <div className='div4'><Contant></Contant></div>
-   <div className='div5'><Img></Img> </div>
-   <div className='div6 '><input value='Get Started' className={'input btn btn-danger'}></input> </div>
-</div> 
-<div><Services></Services> </div> 
-
-
-
-
-
-
- 
- </> 
-  
-  );
+        <div className="Appjs-main-div " onLoad={()=>setpreloader(true)}>
+         <div className={preloader?"pre-loader-display":'preloader'}></div>       
+        <div><Header></Header></div>
+        <div><Sidebar></Sidebar></div>
+        <Switch>
+            <Route path="/"component={FirstPageweb} exact ></Route>
+            <Route path="/products"  component={Products} exact></Route>
+            <Route path='/items' exact component={Singleproductinfo}/>
+            <Route path='/signin' exact component={SigninFoam}/>
+            <Route path='/cart' exact component={Cart}/>
+        </Switch>
+        <footer><div className='end-div'><Enddiv></Enddiv></div></footer> 
+        </div>
+    )
 }
 
-export default App;
+export default App
