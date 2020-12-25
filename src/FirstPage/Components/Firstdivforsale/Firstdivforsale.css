@@ -29,12 +29,13 @@ color: white;
 
 .fdfds-divno2{
 
+
     grid-row: 1/2;
     grid-column: 2/3;
     background-color: #0000;
     margin: auto;
     color: white;
-
+    font-size: 2vw;
 }
 .fdfds-divno3{
   
@@ -143,6 +144,14 @@ margin-top: -0.5%;
             font-size: 1.9em;
             margin-top: -5.5%;
         }
+        
+.fdfds-divno2{
+    
 
+
+    font-size: 4.4vw;
+}.seemore {
+    font-size: 1.6em;
+}
 
 }

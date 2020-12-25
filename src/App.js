@@ -23,7 +23,7 @@ function App() {
         <div><Header></Header></div>
         <div><Sidebar></Sidebar></div>
         <Switch>
-            <Route path="/"component={FirstPageweb} exact ></Route>
+            <Route path="/E-Commerce"component={FirstPageweb} exact ></Route>
             <Route path="/products"  component={Products} exact></Route>
             <Route path='/items' exact component={Singleproductinfo}/>
             <Route path='/signin' exact component={SigninFoam}/>

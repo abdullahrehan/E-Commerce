@@ -200,15 +200,15 @@
 @media (min-width:320px) and (max-width:425px){
 
   #header{
-    
     height:9.5vh ;}
     .inputf {
       width: 102%;
       height: 69%;
-      margin-top: 8.5%;
+      margin-top: 9.5%;
       margin-left: -1.5%;
-  }
-      .menu-icon {
+  }#headerinput::placeholder{font-size: 3.5vw;margin-top: 7%;position: absolute;}
+  #headerinput{font-size: 4vw;}    
+  .menu-icon {
    
         top: 0%;}
         .itone {
@@ -286,7 +286,7 @@
 
 /* Media Quieries */
 /* For Mobile medium*/
-@media (min-width:375px) and (max-width:425px){
+@media (min-width:320px) and (max-width:475px){
   .inputf {
     width: 102%;
     height: 69%;
@@ -299,10 +299,12 @@
   }
   .inputf {
     width: 102%;
-    height: 69%;
-    margin-top: 7%;}.header-serach {
+    height: 74%;
+    margin-top: 7.5%;}
+    
+    .header-serach {
       font-size: 5.7vw;
-      top: 2%;
+      top: 11%;
       left: 20%;
   }.ifour {
     top: 52%;
@@ -313,7 +315,13 @@
 /* For Lcd */
 @media (min-width:1px) and (max-width:1440px){
 
+}
+/* Media Quieries */
+/* For Mobile */
+@media (min-width:425px) and (max-width:765px){
   .inputf {
-    width: 20%;
-    height: 69%;}
+    width: 102%;
+    height: 74%;
+    margin-top: 6.5%;
+}
 }

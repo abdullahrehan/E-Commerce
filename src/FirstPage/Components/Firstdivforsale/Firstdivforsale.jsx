@@ -30,14 +30,15 @@ function Firstdivforsale() {
              <><div className="fdfds-divno1">
 
          
-           <div className="fdfds-divno2"><h3>{Smordata.title}</h3></div>
+           <div className="fdfds-divno2">{Smordata.title}</div>
            <div className="fdfds-divno3"><a style={{color:'white'}} ><Link to='/products' className='seemore'>See more</Link></a></div>
            <div className="fdfds-divno4"><img src={Smordata.Pic} className='amzbasic'/></div>
            </div></>
            ))}
 
+
             <div className="fdfds-divno1 ext">
-                <div className="fdfds-divno2"><h3>Women Clothes</h3></div>
+                <div className="fdfds-divno2">Women Clothes</div>
                 <div className="fdfds-divno3"><a  style={{color:'white'}} className='seemore'>See more</a></div>
                 <div className="fdfds-divno4">
                 <div className="inndiv">

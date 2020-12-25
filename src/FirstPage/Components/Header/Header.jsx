@@ -38,7 +38,7 @@ function Header() {
 
         < >
             <div id="header">
-                <div className="headerdin1"><a className='innertxt itone' onClick={() => { state.sidebarinfo = null;state.inputfield='' }}><Link to='/'>Your Mart</Link></a></div>
+                <div className="headerdin1"><a className='innertxt itone' onClick={() => { state.sidebarinfo = null;state.inputfield='' }}><Link to='/E-Commerce'>Your Mart</Link></a></div>
                 <div className="headerdin2"><a className='innertxt itwo'>
                     <a > Deleiver in</a>
                     <br />

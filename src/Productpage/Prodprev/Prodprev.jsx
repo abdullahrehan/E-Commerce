@@ -36,8 +36,8 @@ function Prodprev() {
           
             <div className="Cartprdctpg-maindiv">
             <div className="Cartprdctpg-title"><h2>{Cartprdctpginfo.name}</h2></div>
-            <BiArrowBack className='snglprod-arrow' size={32} style={{color:"black",cursor:'pointer'}}  onClick={()=>history.goBack()}/>
-
+           <div className='prd-pg-arrow'> <BiArrowBack className='snglprod-arrow' size={32} style={{color:"black",cursor:'pointer'}}  onClick={()=>history.goBack()}/>
+           </div>
             <div className='Cartprdctpg-main-picdiv'>
             <div className="Cartprdctpg-big-picdiv">
                 <img src={Cartprdctpginfo.pic} style={picbigdivstyles1} className='Cartprdctpg-pic'/>
