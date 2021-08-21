@@ -43,7 +43,7 @@ function Header() {
                     <a > Deleiver in changed</a>
                     <br />
                     <a className='locat-icon-a'><HiOutlineLocationMarker className='locat-icon' style={{ color: "white" }} />Muridke</a></a>
-                </div>
+                </div>ss
 
                 <div className="headerdin3 " > <div className='inputf'>
                     <div><input id='headerinput' type="text" class="form-control" onKeyPress={enterevent} placeholder="Search for items.." value={searchitem} onChange={search} /></div>
