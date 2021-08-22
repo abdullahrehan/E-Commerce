@@ -1,0 +1,24 @@
+
+.img{
+    width: 70%;
+    height: 40vh;
+    float: right;
+    margin: 9%;
+    animation: men 2s ease-in-out infinite alternate-reverse both;
+  }
+  @keyframes men{
+    0%{
+       transform:translateY(20px);
+    }
+    100%{
+      transform:translateY(-20px);
+  
+    }
+  }
+  .img2{
+    width: 20%;
+    height: 30%;
+    float: right;
+    margin-left:2%;
+    margin-top: 7%;
+  } 

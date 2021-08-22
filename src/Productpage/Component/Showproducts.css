@@ -1,0 +1,117 @@
+
+.ProductContainer{
+
+    background-color: #131921;
+    width: 90%;
+    height: auto;
+   color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 24%) ;
+    /* grid-template-rows: repeat(5,24%); */
+    padding-top: 2%;
+    
+
+}
+.ProductCart-main{
+    width: 17vw;
+    height: 22vw;
+z-index: 2;
+}
+.ProductCart{
+   
+    width: 13vw;
+    height: 20vw;
+    display: grid;
+    grid-template-rows: 10% 70% 8% 12%;
+    grid-template-columns: repeat(3,33.3%);
+    margin: auto;
+    
+    
+   
+    
+}
+
+.ProductStatus{grid-row: 1/2;grid-column: 3/5;position: relative;opacity: 95%;}
+.ProductPic{grid-row: 1/3;grid-column: 1/5;}
+.status{font-family: sans-serif;background-color:rgb(250, 91, 37);font-size: 1.5vw;margin: auto;text-align: center;border: 2px solid  rgb(250, 91, 37) ;color: white;}
+.ProductName{grid-row: 3/4;grid-column: 1/3;font-size: 1.1vw;}
+.ProductPrice {grid-row: 3/4;grid-column: 2/5;font-size: 1.1vw;text-align: end;}
+.ProductButton{margin: auto;grid-row: 4/5;grid-column: 1/5;width: 100%;height: 100%;text-align: center;}
+.btn{width: 100%;height: 100%; font-size: 1.1vw;font-family: Arial, Helvetica, sans-serif;}
+.image:hover{opacity: 80%;background-color: #0005;color: royalblue;}
+.image{width: 100%;height: 100%;position: relative;}
+.icon{position: absolute;}
+.Producthover{grid-row: 1/3;grid-column: 1/4;margin: auto;font-size: 3vw;}
+.imgbtn{border: 2% solid #0002;}
+.brdr{border-radius: 0px;}
+.model-pic{
+  background-color: #0000;
+    width: 25%;
+    height: 92%;
+    position: absolute;
+    left:80.5%;
+    top: 7%;
+    position: fixed;
+}
+.model-pic img{
+    width: 100%;
+    height: 100%;
+    opacity: 79%;
+    background-color: #0000;
+    padding-top: 1%;
+}
+.prd-pg{
+    border-radius:0px;
+    font-size:1.3vw;
+    padding-top:1%;
+    font-weight:200;
+}
+
+
+/* Media Quieries */
+/* For Tablet */
+@media (max-width:768px){
+
+    .model-pic {
+        width: 29%;
+        height: 77%;
+        left: 77.5%;
+        top: 23%;
+    }
+    .product-main {
+        left: 9%;
+
+    }
+}
+
+/* Media Quieries */
+/* For Mobile */
+@media  (min-width:320px) and (max-width:425px){
+
+
+   .ProductContainer {
+        grid-template-columns: repeat(3, 33.33%);
+        grid-template-rows: repeat(3,47vw);
+        width: 100%;
+        padding-left: 2.4%;
+        overflow: scroll;}
+     .model-pic img {
+           display: none;
+        }.ProductCart {
+            width: 29vw;
+            height: 43vw;
+   
+            grid-template-rows: 10% 70% 8% 12%;
+            grid-template-columns: repeat(3,33.3%);
+         
+        }.ProductName {
+            font-size: 2.9vw;
+        }.ProductPrice {
+            font-size: 2.6vw;
+            margin-top: 1%;
+        }.ProductCart-main {
+            width: 30vw;
+            height: 47vw;
+            z-index: 2;
+        }
+}

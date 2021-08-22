@@ -1,0 +1,17 @@
+.productpage-maindiv{
+
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    z-index: 1;
+    position: relative;
+}
+
+.div4{ 
+    position: relative;
+    top: 5%;
+    left:9%;
+    width: 75%;
+
+}
+

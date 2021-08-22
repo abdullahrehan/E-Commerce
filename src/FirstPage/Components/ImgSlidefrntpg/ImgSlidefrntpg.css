@@ -1,0 +1,108 @@
+.ImgSlidefrntpg{
+    background-color: rgb(1, 103,125 );
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    color: thistle;
+
+}.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 39%;
+      width: 16%;
+      height: 6%;
+    margin: auto;
+}
+@media (max-width:1440px){
+   .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: 49%;
+          width: 16%;
+          height: 6%;
+        margin: auto;
+    }
+
+}
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    background-color: #0008;
+    right: 0;
+    height: 5%;
+    border-radius: 15px;
+    color: white;
+}
+.swiper-slide img {
+  
+    margin: auto;
+top: 1%;
+left: 0%;
+right: 0;
+bottom: 0;  
+width: 100%;
+  
+    position: absolute;
+}
+:root {
+    --swiper-theme-color: white;
+}
+.swiper-button-next,.swiper-button-prev{
+    color: white;
+}
+
+
+
+
+/* Media Quieries */
+
+/* For Tablet */
+
+
+@media (max-width:768px){
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: 26%;
+        width: 19%;
+
+       
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 3px 4px;
+    }
+
+}
+
+/* Media Quieries */
+/* For Lcd */
+@media (min-width:1536px){
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+ bottom: 49%;
+        width: 16%;
+        height: 8%;}
+
+
+}
+/* Media Quieries */
+/* For mobile */
+@media  (min-width:320px) and (max-width:425px){
+.swiper-container-horizontal > .swiper-pagination-bullets {
+bottom: 19%;
+width: 28%;height: 8%;
+}.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+margin: 5px 4px;
+            }}
+
+
+/* Media Quieries */
+/* For Mobile medium*/
+@media (min-width:375px) and (max-width:425px){
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+bottom: 22%;
+width: 28%;
+height: 8%;
+}
+}
